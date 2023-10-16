@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operasi Penjumlahan Bilangan</title>
+    <style>
+      .container {
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
+
+      .input-container {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      .input-field {
+        border-radius: 5px;
+        margin-right: 10px;
+      }
+
+      .button-container {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">Penjumlahan Bilangan</div>
+
+    <div class="input-container">
+      <div>
+        Bilangan Pertama:
+        <input type="text" id="angka1" class="input-field" />
+      </div>
+      <div>
+        Bilangan Kedua:
+        <input type="text" id="angka2" class="input-field" />
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button onclick="HasilPenjumlahan()">Jumlahkan</button>
+      <button onclick="Ulang()">Ulang</button>
+      <script src="javscrpt.js"></script>
+    </div>
+  </body>
+</html>
